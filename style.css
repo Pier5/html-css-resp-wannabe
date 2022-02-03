@@ -102,18 +102,35 @@ img {
   }
 
   #lezioni .row>.left,
-  #lezioni .row>.right {
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
     width: 370px;
-    /* height: 200px; */
     float: none;
     padding: 10px 0;
     font-size: .7rem;
 }
 
-#lezioni .row img {
+#lezioni .row img,
+#steps .row img {
   padding: .1em;
-  width: 130px;
-  height: 110px;
+  width: 100px;
+  height: 90px;
+}
+
+#steps {
+  background-color: white;
+  display: flex;
+}
+
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: none;
+  width: 370px;
+  padding: 10px 0;
+  font-size: .7rem;
 }
 
 
