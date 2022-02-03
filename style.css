@@ -127,15 +127,6 @@ img {
     display: flex;
 }
 
-  #steps .row>.left,
-  #steps .row>.central,
-  #steps .row>.right {
-    float: none;
-    width: 370px;
-    padding: 10px 0;
-    font-size: .7rem;
-}
-
   #why {
     background-color: #f2f2cd;
     justify-content: center;
