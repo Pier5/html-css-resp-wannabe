@@ -105,7 +105,10 @@ img {
   #lezioni .row>.right,
   #steps .row>.left,
   #steps .row>.central,
-  #steps .row>.right {
+  #steps .row>.right,
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
     width: 370px;
     float: none;
     padding: 10px 0;
@@ -113,7 +116,8 @@ img {
 }
 
 #lezioni .row img,
-#steps .row img {
+#steps .row img,
+#why .row img {
   padding: .1em;
   width: 100px;
   height: 90px;
@@ -121,6 +125,7 @@ img {
 
 #steps {
   background-color: white;
+  justify-content: center;
   display: flex;
 }
 
@@ -133,10 +138,19 @@ img {
   font-size: .7rem;
 }
 
+#why {
+  background-color: #f2f2cd;
+  justify-content: center;
+  display: flex;
+}
 
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  margin: 0;
+}
 
-
-
-
-
+#why .row img {
+  padding: 1.2rem;
+}
 }
