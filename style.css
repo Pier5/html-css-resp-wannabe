@@ -109,7 +109,7 @@ img {
   #why .row>.first,
   #why .row>.second,
   #why .row>.third {
-    width: 370px;
+    flex-basis: 370px;
     float: none;
     padding: 10px 0;
     font-size: .7rem;
