@@ -115,42 +115,40 @@ img {
     font-size: .7rem;
 }
 
-#lezioni .row img,
-#steps .row img,
-#why .row img {
-  padding: .1em;
-  width: 100px;
-  height: 90px;
+  .row img {
+    padding: .1em;
+    width: 100px;
+    height: 90px;
 }
 
-#steps {
-  background-color: white;
-  justify-content: center;
-  display: flex;
+  #steps {
+    background-color: white;
+    justify-content: center;
+    display: flex;
 }
 
-#steps .row>.left,
-#steps .row>.central,
-#steps .row>.right {
-  float: none;
-  width: 370px;
-  padding: 10px 0;
-  font-size: .7rem;
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 370px;
+    padding: 10px 0;
+    font-size: .7rem;
 }
 
-#why {
-  background-color: #f2f2cd;
-  justify-content: center;
-  display: flex;
+  #why {
+    background-color: #f2f2cd;
+    justify-content: center;
+    display: flex;
 }
 
-#why .row>.first,
-#why .row>.second,
-#why .row>.third {
-  margin: 0;
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin: 0;
 }
 
-#why .row img {
-  padding: 1.2rem;
+  #why .row img {
+    padding: 1.2rem;
 }
 }
