@@ -97,12 +97,17 @@ img {
     flex-wrap: wrap;
   }
 
+  h1 {
+    font-size: 1.5rem;
+  }
+
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 370px;
     /* height: 200px; */
     float: none;
     padding: 10px 0;
+    font-size: .7rem;
 }
 
 #lezioni .row img {
@@ -110,6 +115,10 @@ img {
   width: 130px;
   height: 110px;
 }
+
+
+
+
 
 
 
